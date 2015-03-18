@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<title>MainPage</title>
+<html>
+     <head>
+    	<title>MainPage</title>
 	<script>
 		function input(){
 		
 		}
 	</script>
-	</head>
+	<style>
+		div {
+			width: 20px;
+			text:" wow"
+    			background: blue;
+    			position: relative;
+    			-webkit-animation: mymove 10s infinite; /* Chrome, Safari, Opera */
+    			animation: mymove 10s infinite;
+		}
+
+		@keyframes mymove {
+    			from {left: 0px;}
+    			to {left: 500px;}
+		}
+
+	</style>
 		<center>
-			
 			<div style="height:200px"></div>
 			<input style="width:380px; height:30px" type="text" name="food bar" value= "" placeholder="Enter food here Eg.chicken soup, salad,..." id="location" onKeydown="if (event.keyCode==13){ print(input)};" ></input> 
 			<div style="height:-100px"></div>
