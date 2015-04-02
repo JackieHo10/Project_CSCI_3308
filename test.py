@@ -3,13 +3,13 @@ import calculation
 
 class TestStringMethods(unittest.TestCase):
 
-  def test_not_in_database(self):
+  def test_in_database(self):
 	  print "\nTest food is in database."
 	  good = calculation.calculation()
 	  self.assertTrue(good.findFood("chickendrumstick")) 
 	  #function findFood return true if food in database otherwise return false
 	  return good
-  def test_in_database(self):
+  def test_not_in_database(self):
 	  print "\nTest food is not in database."
 	  good = calculation.calculation()
 	  self.assertFalse(good.findFood("pho"))
