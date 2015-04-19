@@ -4,7 +4,7 @@
 </head>
 <body>
 	<?php
-		
+		//connecting to database		
 		$dbhost="localhost";
 		$dbpassword="Yzz6QBv6PpzeTYY3";
 		$dbuser="mql";
@@ -60,6 +60,7 @@
 			echo "<br>succes";
 		}
 		*/
+		//inserting into the databse, checking  if the user info is set
 		if(isset($username,$userpas,$usermail,$secureq,$securea))
 		{
 			$sql = "INSERT INTO USERLOGIN ".

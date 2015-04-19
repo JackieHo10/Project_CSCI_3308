@@ -1,4 +1,5 @@
 <?php
+	'''we are checking our connection to the database and we try to pull our information based on user input'''
 	$dbhost="localhost";
 	$dbuser="mql";
 	$dbpassword="Yzz6QBv6PpzeTYY3";
@@ -24,8 +25,9 @@
 	$sql="SELECT * FROM USERLOGIN WHERE LOGINNAME=$username AND LOGINPASS=$userpass AND LOGINMAIL=$usermail";
 	$result = $conn->query($sql);
 	
+
 	$count = $result->num_rows;
-	
+	'''if it is correct then login success.php else we want the user to reenter password'''	
 	if($count == 1)
 	{
 		session_register($username);
