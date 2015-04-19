@@ -1,3 +1,4 @@
+#This file uses to get queries from the users and calculate the calories
 from nltk import tokenize
 
 class calculation:
@@ -8,10 +9,12 @@ class calculation:
 	global total
 	total = 0
 
+	#This function uses to check if food in our record or not
 	def findFood(self,name):
 		name = name.lower()
 		return dictfood.has_key(name)
 		
+	#This function uses to calculate the calories fron the users' queries
 	def calculateCal(self,string):
 		global total
 		total = 0
