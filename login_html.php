@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+	<!-- this is a html code that take login input -->
 	<head>
 		<title>Test</title>
 	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js">

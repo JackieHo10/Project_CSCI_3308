@@ -2,6 +2,7 @@
 <head>
 	<title>Test for Course Listing</title>
 </head>
+<!--php for the signup page that connect to our mysql database-->
 <body>
 	<?php
 		//connecting to database		
@@ -14,7 +15,7 @@
 			die ("connection error".$conn->error);
 		}
 		echo "connected<br>";
-
+		//below is the original code that we use to create the file, we preserve it incase we need it to create other database
 		/*$sl = "CREATE DATABASE DB_CALCOUNTER";
 		if (!$conn->select_db("DB_CALCOUNTER"))
 		{
@@ -41,25 +42,6 @@
 		echo "$usermail<br>";
 		echo "$secureq<br>";
 		echo "$securea<br>";
-		/*
-		if(!($conn->query($tbname)))
-		{
-			$sl = "CREATE TABLE USERLOGIN(".
-				  "LOGINID INT NOT NULL AUTO_INCREMENT, ".
-				  "LOGINNAME VARCHAR(25) NOT NULL, ".
-				  "LOGINPASS VARCHAR(25) NOT NULL, ".
-				  "LOGINMAIL VARCHAR(25) NOT NULL, ".
-				  "SECUREQ VARCHAR(20) NOT NULL, ".
-				  "SECUREA VARCHAR(10) NOT NULL, ".
-				  "PRIMARY KEY(LOGINID));";
-			$result = $conn->query($sl);
-			if(!$result)
-			{
-				die("<br> error creating ".$conn->error);
-			}
-			echo "<br>succes";
-		}
-		*/
 		//inserting into the databse, checking  if the user info is set
 		if(isset($username,$userpas,$usermail,$secureq,$securea))
 		{
