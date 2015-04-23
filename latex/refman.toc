@@ -1,0 +1,28 @@
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Namespace List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Namespace Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}user\discretionary {-}{}{}Info Namespace Reference}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{7}{subsection.4.1.1}
+\contentsline {chapter}{\numberline {5}Class Documentation}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}test.\discretionary {-}{}{}Test\discretionary {-}{}{}String\discretionary {-}{}{}Methods Class Reference}{9}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{9}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Member Function Documentation}{9}{subsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.2.1}test\discretionary {-}{}{}\_\discretionary {-}{}{}in\discretionary {-}{}{}\_\discretionary {-}{}{}database}{9}{subsubsection.5.1.2.1}
+\contentsline {subsubsection}{\numberline {5.1.2.2}test\discretionary {-}{}{}\_\discretionary {-}{}{}none\discretionary {-}{}{}\_\discretionary {-}{}{}of\discretionary {-}{}{}\_\discretionary {-}{}{}food\discretionary {-}{}{}\_\discretionary {-}{}{}in\discretionary {-}{}{}\_\discretionary {-}{}{}database\discretionary {-}{}{}\_\discretionary {-}{}{}calculation}{9}{subsubsection.5.1.2.2}
+\contentsline {subsubsection}{\numberline {5.1.2.3}test\discretionary {-}{}{}\_\discretionary {-}{}{}not\discretionary {-}{}{}\_\discretionary {-}{}{}in\discretionary {-}{}{}\_\discretionary {-}{}{}database}{10}{subsubsection.5.1.2.3}
+\contentsline {subsubsection}{\numberline {5.1.2.4}test\discretionary {-}{}{}\_\discretionary {-}{}{}one\discretionary {-}{}{}\_\discretionary {-}{}{}food\discretionary {-}{}{}\_\discretionary {-}{}{}calculation}{10}{subsubsection.5.1.2.4}
+\contentsline {subsubsection}{\numberline {5.1.2.5}test\discretionary {-}{}{}\_\discretionary {-}{}{}three\discretionary {-}{}{}\_\discretionary {-}{}{}food\discretionary {-}{}{}\_\discretionary {-}{}{}but\discretionary {-}{}{}\_\discretionary {-}{}{}one\discretionary {-}{}{}\_\discretionary {-}{}{}not\discretionary {-}{}{}\_\discretionary {-}{}{}in\discretionary {-}{}{}\_\discretionary {-}{}{}database\discretionary {-}{}{}\_\discretionary {-}{}{}calculation}{10}{subsubsection.5.1.2.5}
+\contentsline {subsubsection}{\numberline {5.1.2.6}test\discretionary {-}{}{}\_\discretionary {-}{}{}two\discretionary {-}{}{}\_\discretionary {-}{}{}food\discretionary {-}{}{}\_\discretionary {-}{}{}calculation}{10}{subsubsection.5.1.2.6}
+\contentsline {subsubsection}{\numberline {5.1.2.7}test\discretionary {-}{}{}\_\discretionary {-}{}{}upper\discretionary {-}{}{}\_\discretionary {-}{}{}lower\discretionary {-}{}{}\_\discretionary {-}{}{}mix}{10}{subsubsection.5.1.2.7}
+\contentsline {section}{\numberline {5.2}user\discretionary {-}{}{}Info.\discretionary {-}{}{}user\discretionary {-}{}{}Info Class Reference}{10}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{10}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Member Function Documentation}{10}{subsection.5.2.2}
+\contentsline {subsubsection}{\numberline {5.2.2.1}calculate\discretionary {-}{}{}Cal}{10}{subsubsection.5.2.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2.2}find\discretionary {-}{}{}Food}{11}{subsubsection.5.2.2.2}
+\contentsline {chapter}{\numberline {6}PHP Documentation}{13}{chapter.6}
+\contentsline {section}{\numberline {6.1}Documentation for PHP script}{13}{section.6.1}
+\contentsline {chapter}{Index}{14}{section*.6}
