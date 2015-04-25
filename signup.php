@@ -2,10 +2,9 @@
 <head>
 	<title>Test for Course Listing</title>
 </head>
-<!--php for the signup page that connect to our mysql database-->
 <body>
 	<?php
-		//connecting to database		
+		
 		$dbhost="localhost";
 		$dbpassword="Yzz6QBv6PpzeTYY3";
 		$dbuser="mql";
@@ -15,8 +14,8 @@
 			die ("connection error".$conn->error);
 		}
 		echo "connected<br>";
-		//below is the original code that we use to create the file, we preserve it incase we need it to create other database
-		/*$sl = "CREATE DATABASE DB_CALCOUNTER";
+		/*
+		$sl = "CREATE DATABASE DB_CALCOUNTER";
 		if (!$conn->select_db("DB_CALCOUNTER"))
 		{
 			$conn->query($sl);
@@ -27,13 +26,14 @@
 		{
 			$conn->select_db("DB_CALCOUNTER");
 			echo "has database already! DB_CALCOUNTER<br>";
-		}*/
+		}
+		*/
 		$conn->select_db("DB_CALCOUNTER");
 		
-		$tbname = "USERLOGIN";
+		$tbname = "USERINFO";
 		$username = $_POST["username"];
 
-		$userpas  = $_POST["abc"];
+		$userpas  = md5($_POST["password01"]);
 		$usermail = $_POST["email"];
 		$secureq  = $_POST["securityq"];
 		$securea  = $_POST["securitya"];
@@ -42,10 +42,28 @@
 		echo "$usermail<br>";
 		echo "$secureq<br>";
 		echo "$securea<br>";
-		//inserting into the databse, checking  if the user info is set
+		/*
+		if(!($conn->query($tbname)))
+		{
+			$sl = "CREATE TABLE USERINFO(".
+				  "LOGINID INT NOT NULL AUTO_INCREMENT, ".
+				  "LOGINNAME VARCHAR(100) NOT NULL, ".
+				  "LOGINPASS VARCHAR(300) NOT NULL, ".
+				  "LOGINMAIL VARCHAR(100) NOT NULL, ".
+				  "SECUREQ VARCHAR(200) NOT NULL, ".
+				  "SECUREA VARCHAR(200) NOT NULL, ".
+				  "PRIMARY KEY(LOGINID));";
+			$result = $conn->query($sl);
+			if(!$result)
+			{
+				die("<br> error creating ".$conn->error);
+			}
+			echo "<br>succes";
+		}*/
+		
 		if(isset($username,$userpas,$usermail,$secureq,$securea))
 		{
-			$sql = "INSERT INTO USERLOGIN ".
+			$sql = "INSERT INTO USERINFO ".
 				   "(loginname,loginpass,loginmail,secureq,securea) ".
 				   "VALUES ".
 				   "('$username','$userpas','$usermail','$secureq','$securea')";
@@ -54,7 +72,9 @@
 			{
 				die("error inserting".$conn->error);
 			}
-			echo "successfully inserting";
+			else {
+				header("location:login_html.php");
+			}
 			$result->free($sql);
 		}
 		$conn->close();

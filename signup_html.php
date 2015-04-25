@@ -9,17 +9,14 @@
 		document.body.style.background = " url(pic.jpg) no-repeat center";
 	});
     </script>
-   <!--if onclick change to the login_html-->
     <script>
-        function url(){
-                window.location.replace("http://127.0.0.1:8000/login_html.php");
-        }
+    $(document).ready(function(){
+      document.body.style.background = " url(icecreamball.jpg) no-repeat center";
+    });
   </script>
-
   </head>
   <body>
     <center>
-    <!--user input and when submid will relocate to login_html-->
      <UL TYPE="square" color="blue">
       <h3><font face="Geneva, Arial, Helvetica,sans-serif" size="15" color="brown">CalCounter</font></h3>
       <form action="signup.php" method="post">
@@ -29,12 +26,12 @@
         <p><input type="text" size="40 10" id="location" value="" placeholder="Username" name="username"></input></p>
         <p><font size = "4.5" color="white"></font></p>
         
-        <font size="4">abc:</font>
-        <p><input type="text" size="40 10" id="location" value="" placeholder="abc" name="abc"></input></p>
+        <font size="4">password:</font>
+        <p><input type="password" size="40 10" id="location" value="" placeholder="Password" name="password01"></input></p>
         <p><font size = "4.5" color="white"></font></p>
         
-        <font size="4">cde:</font>
-        <p><input type="text" size="40 10" id="location" value=""placeholder="s" name="cde" ></input></p>
+        <font size="4">Re-enter Password:</font>
+        <p><input type="password" size="40 10" id="location" value=""placeholder="Re-enter Password" name="password02" ></input></p>
         <p><font size = "4.5" color="white"></font></p>
         
         <font size="4">Email Address:</font>
@@ -48,7 +45,7 @@
         <font size="4">Security Answer:</font>
         <p><input type="text" size="40 10" id="location"value="" placeholder="Answer to Your Security Question" name="securitya" ></input></p>
         <p><font size = "4.5" color="white"></font></p>
-        <input type="submit" onclick="url()"></input>
+        <input type="submit"></input>
       
       </form>
      </UL>
