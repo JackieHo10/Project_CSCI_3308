@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Test</title>
+    <title>CalCounter</title>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js">
     </script>
      <!--- set the background-->
@@ -15,15 +15,17 @@
   <!--- script below will relocate to login page when clicked-->
   <script>
 	function loginpage(){
-		window.location.replace("http://127.0.0.1:8000/login_html.php");
+		window.location.replace("http://localhost/Project_CalorieTracker/login_html.php");
 	}
+  function signuppage(){
+    window.location.replace("http://localhost/Project_CalorieTracker/signup_html.php");
+  }
   </script>
-  <div style="position: aboslute; top:0;right:100%;width:100%;text-align:left;"><button color="black" size="45">Sign Up !</button></div>
+  <div style="position: aboslute; top:0;right:100%;width:100%;text-align:left;"><button color="black" size="45" onclick="signuppage();">Sign Up !</button></div>
   <center>
       <div style="height:180px"></div>
       <div style="position: aboslute; top:0;right:40%;width:50%;text-align:left;"><button color="black" size="45" onclick="loginpage();" >User Login !</button></div><font face="Geneva, Arial, Helvetica,sans-serif" size="80" color="brown">CalCounter</font>
       <p><input type="text" size="50 50" id="location" onKeydown="if (event.keyCode==13){ print(input)};" ></input></p>
-     
       <p><font size = "4.5" color="white"></font></p>
       <font size="4"><p id="weather"> </p></font>
       <div style="height:122px"></div>
