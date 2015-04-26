@@ -41,7 +41,9 @@
 		//session_register($username);
 		//session_register($userpass);
 		//session_register($usermail);
-		header("location:login_success.php");
+		session_start();
+		$_SESSION['username']= $username;
+		header("location:user_main_html.php");
 	}
 	else {
 		$err = "Invalid username or password";
