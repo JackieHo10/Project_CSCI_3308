@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html> 
 <html>
      <head>
@@ -21,20 +22,23 @@
 		}
 	</script>
 		<center>
-			<p><font size="35"><?php
+			<p><font size="35" color="blue"><?php
 			session_start();
 			$var_value = $_SESSION['username'];
 			echo "Welcome {$var_value}";
 			?></font></p>
-			<div style="height:50px"></div>
+			<div style="height:30px"></div>
 			<p><font face="Geneva, Arial, Helvetica" size="105" color="brown">CalCounter</font></p>
-			<!-- Put Ray API in here
+			<!-- Put Ray API in here-->
+			<center>
+				<script src="http://platform.fatsecret.com/js?key=8e6d9c349428497d93b054d131d67bb7&auto_load=true"></script>
+
+				<!--<div style="height:200px"></div>
+				<input style="width:380px; height:30px" type="text" name="food bar" value= "" placeholder="Enter food here Eg.chicken soup, salad,..." id="location" onKeydown="if (event.keyCode==13){ print(input)};" ></input> 
+				<div style="height:-100px"></div>-->
+			<center>
 			
-			<input style="width:380px; height:30px" type="text" name="food bar" value= "" placeholder="Enter food here Eg.chicken soup, salad,..." id="location" onKeydown="if (event.keyCode==13){ print(input)};" ></input> 
-			<div style="height:-100px"></div>
-			<div style="height:100px"></div>
-			
-			-->
+			<div style="height:150px"></div>		
 			<button color="black" size="45" style="height=30px;width=500px" onclick="logout();">LOGOUT</button>
 		<center>
 </html>
