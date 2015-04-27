@@ -18,7 +18,7 @@
   <body>
     <center>
      <UL TYPE="square" color="blue">
-      <h3><font face="Geneva, Arial, Helvetica,sans-serif" size="15" color="brown">CalCounter</font></h3>
+      <h3><font    face="Geneva, Arial, Helvetica,sans-serif" size="15" color="brown">CalCounter</font></h3>
       <form action="signup.php" method="post">
       <p><font size="6" color="red">SignUp</font></p>
         

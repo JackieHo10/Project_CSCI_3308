@@ -29,7 +29,7 @@
 			?></font></p>
 			<div style="height:30px"></div>
 			<p><font face="Geneva, Arial, Helvetica" size="105" color="brown">CalCounter</font></p>
-			<!-- Put Ray API in here-->
+			<!-- Put Ray API in here   -->
 			<center>
 				<script src="http://platform.fatsecret.com/js?key=8e6d9c349428497d93b054d131d67bb7&auto_load=true"></script>
 
