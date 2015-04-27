@@ -5,11 +5,6 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js">
     </script>
     <script>
-	$(document).ready(function(){
-		document.body.style.background = " url(pic.jpg) no-repeat center";
-	});
-    </script>
-    <script>
     $(document).ready(function(){
       document.body.style.background = " url(icecreamball.jpg) no-repeat center";
     });

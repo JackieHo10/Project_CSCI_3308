@@ -7,7 +7,7 @@
      <!--- set the background-->
      <script>
 	$(document).ready(function(){
-		document.body.style.background = "#CED8F6 url('coffee.jpg') center no-repeat";
+		document.body.style.background = "#CED8F6 url('icecreamball.jpg') center no-repeat";
 	});
     </script>
   
