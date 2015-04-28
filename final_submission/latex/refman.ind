@@ -1,0 +1,61 @@
+\begin{theindex}
+
+  \item {calculate\discretionary {-}{}{}Cal}
+    \subitem {user\discretionary {-}{}{}Info\discretionary {-}{}{}::user\discretionary {-}{}{}Info}, 
+		\hyperpage{10}
+
+  \indexspace
+
+  \item {find\discretionary {-}{}{}Food}
+    \subitem {user\discretionary {-}{}{}Info\discretionary {-}{}{}::user\discretionary {-}{}{}Info}, 
+		\hyperpage{10}
+
+  \indexspace
+
+  \item {test.\discretionary {-}{}{}Test\discretionary {-}{}{}String\discretionary {-}{}{}Methods}, 
+		\hyperpage{9}
+  \item {test\discretionary {-}{}{}::\discretionary {-}{}{}Test\discretionary {-}{}{}String\discretionary {-}{}{}Methods}
+    \subitem {test\discretionary {-}{}{}\_\discretionary {-}{}{}in\discretionary {-}{}{}\_\discretionary {-}{}{}database}, 
+		\hyperpage{9}
+    \subitem {test\discretionary {-}{}{}\_\discretionary {-}{}{}none\discretionary {-}{}{}\_\discretionary {-}{}{}of\discretionary {-}{}{}\_\discretionary {-}{}{}food\discretionary {-}{}{}\_\discretionary {-}{}{}in\discretionary {-}{}{}\_\discretionary {-}{}{}database\discretionary {-}{}{}\_\discretionary {-}{}{}calculation}, 
+		\hyperpage{9}
+    \subitem {test\discretionary {-}{}{}\_\discretionary {-}{}{}not\discretionary {-}{}{}\_\discretionary {-}{}{}in\discretionary {-}{}{}\_\discretionary {-}{}{}database}, 
+		\hyperpage{9}
+    \subitem {test\discretionary {-}{}{}\_\discretionary {-}{}{}one\discretionary {-}{}{}\_\discretionary {-}{}{}food\discretionary {-}{}{}\_\discretionary {-}{}{}calculation}, 
+		\hyperpage{10}
+    \subitem {test\discretionary {-}{}{}\_\discretionary {-}{}{}two\discretionary {-}{}{}\_\discretionary {-}{}{}food\discretionary {-}{}{}\_\discretionary {-}{}{}calculation}, 
+		\hyperpage{10}
+    \subitem {test\discretionary {-}{}{}\_\discretionary {-}{}{}upper\discretionary {-}{}{}\_\discretionary {-}{}{}lower\discretionary {-}{}{}\_\discretionary {-}{}{}mix}, 
+		\hyperpage{10}
+  \item {test\discretionary {-}{}{}\_\discretionary {-}{}{}in\discretionary {-}{}{}\_\discretionary {-}{}{}database}
+    \subitem {test\discretionary {-}{}{}::\discretionary {-}{}{}Test\discretionary {-}{}{}String\discretionary {-}{}{}Methods}, 
+		\hyperpage{9}
+  \item {test\discretionary {-}{}{}\_\discretionary {-}{}{}none\discretionary {-}{}{}\_\discretionary {-}{}{}of\discretionary {-}{}{}\_\discretionary {-}{}{}food\discretionary {-}{}{}\_\discretionary {-}{}{}in\discretionary {-}{}{}\_\discretionary {-}{}{}database\discretionary {-}{}{}\_\discretionary {-}{}{}calculation}
+    \subitem {test\discretionary {-}{}{}::\discretionary {-}{}{}Test\discretionary {-}{}{}String\discretionary {-}{}{}Methods}, 
+		\hyperpage{9}
+  \item {test\discretionary {-}{}{}\_\discretionary {-}{}{}not\discretionary {-}{}{}\_\discretionary {-}{}{}in\discretionary {-}{}{}\_\discretionary {-}{}{}database}
+    \subitem {test\discretionary {-}{}{}::\discretionary {-}{}{}Test\discretionary {-}{}{}String\discretionary {-}{}{}Methods}, 
+		\hyperpage{9}
+  \item {test\discretionary {-}{}{}\_\discretionary {-}{}{}one\discretionary {-}{}{}\_\discretionary {-}{}{}food\discretionary {-}{}{}\_\discretionary {-}{}{}calculation}
+    \subitem {test\discretionary {-}{}{}::\discretionary {-}{}{}Test\discretionary {-}{}{}String\discretionary {-}{}{}Methods}, 
+		\hyperpage{10}
+  \item {test\discretionary {-}{}{}\_\discretionary {-}{}{}three\discretionary {-}{}{}\_\discretionary {-}{}{}food\discretionary {-}{}{}\_\discretionary {-}{}{}but\discretionary {-}{}{}\_\discretionary {-}{}{}one\discretionary {-}{}{}\_\discretionary {-}{}{}not\discretionary {-}{}{}\_\discretionary {-}{}{}in\discretionary {-}{}{}\_\discretionary {-}{}{}database\discretionary {-}{}{}\_\discretionary {-}{}{}calculation}
+    \subitem {test\discretionary {-}{}{}::\discretionary {-}{}{}Test\discretionary {-}{}{}String\discretionary {-}{}{}Methods}, 
+		\hyperpage{10}
+  \item {test\discretionary {-}{}{}\_\discretionary {-}{}{}two\discretionary {-}{}{}\_\discretionary {-}{}{}food\discretionary {-}{}{}\_\discretionary {-}{}{}calculation}
+    \subitem {test\discretionary {-}{}{}::\discretionary {-}{}{}Test\discretionary {-}{}{}String\discretionary {-}{}{}Methods}, 
+		\hyperpage{10}
+  \item {test\discretionary {-}{}{}\_\discretionary {-}{}{}upper\discretionary {-}{}{}\_\discretionary {-}{}{}lower\discretionary {-}{}{}\_\discretionary {-}{}{}mix}
+    \subitem {test\discretionary {-}{}{}::\discretionary {-}{}{}Test\discretionary {-}{}{}String\discretionary {-}{}{}Methods}, 
+		\hyperpage{10}
+
+  \indexspace
+
+  \item {user\discretionary {-}{}{}Info}, \hyperpage{7}
+  \item {user\discretionary {-}{}{}Info.\discretionary {-}{}{}user\discretionary {-}{}{}Info}, 
+		\hyperpage{10}
+  \item {user\discretionary {-}{}{}Info\discretionary {-}{}{}::user\discretionary {-}{}{}Info}
+    \subitem {calculate\discretionary {-}{}{}Cal}, \hyperpage{10}
+    \subitem {find\discretionary {-}{}{}Food}, \hyperpage{10}
+
+\end{theindex}
