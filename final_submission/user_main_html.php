@@ -11,6 +11,9 @@ $(document).ready(function(){
     });
 </script>
 
+
+
+
 </head>
 <!--- script below will relocate to login page when clicked-->
 <script>
