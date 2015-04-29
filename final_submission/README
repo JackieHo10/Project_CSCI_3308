@@ -1,16 +1,40 @@
-REPO ORGANIZATION:
+-REPO ORGANIZATION:
 
-Project_CSCI_3308/final_submission/
+This project is maintainly organized in 4 category:
+Files that ended with _html.php contains the html codes or basic features or html framework of our website. 
+Files that ended with .php contains the _POST action that interact with the html codes. 
+Files ended with .py contains the calculations that react to the user input and unit test file.
+Files in html and latex folders contains the auto docs for our project.
+
+-Project_CSCI_3308/
+
+final_submission folder
+
+All pdf reports.
+
+-Project_CSCI_3308/final_submission/
 
 php files: contains the php codes for the websites.
 
-python giles: contains the python codes for the calculations.
+python files: contains the python codes for the calculations.
 
-To run the websites, please followed the steps below:
+html folder: contains all files that doxygen created for html format of autodocs (index.html is the file to run). 
+
+latex folder: contains all files that doxygen created for pdf format of autodocs.
+
+-To view the auto docs:
+Step 1: Go to the directory Project_CSCI_3308/final_submission/
+Step 2a: Go to html folder if we want to view as html format and open the index.txt
+Step 2b: Go to latex folder if we want to view as pdf format and open refnam.pdf
+
+-To run the websites, please followed the steps below:
 Step 1: Install WAMP.
 Step 2: run WAMP online. 
 Step 3: open a internet browser and insert localhost/Project_CalTracker/"any php-files" into the website bar.
 **Project_CalTracker is a directory for this project in a local computer because
 we dont have a public domain.
 
-This project is maintainly organized in 4 category. Files that ended with _html.php contains the html codes or basic features or html framework of our website. Files that ended with .php contains the _POST action that interact with the html codes. Files ended with .py contains the calculations that react to the user input.Files in *********** pHU THIS IS THE TESTING PORTION PLEASE PUT IT UP, ALSO PLEASE CHECK IF I SUBMIT THE TAG "Spring 2015 Final Submission" THE TAG IS REQUIRED************************************
+-To run unit test:
+Compile and run test.py
+
+
